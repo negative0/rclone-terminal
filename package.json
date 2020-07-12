@@ -1,8 +1,14 @@
 {
   "name": "rclone-terminal",
-  "author": "rclone-terminal",
+  "author": "negative0",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "rclone": {
+    "handleType": [
+      "video/mp4"
+    ],
+    "pluginType": "filehandler"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
