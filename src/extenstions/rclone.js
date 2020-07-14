@@ -34,7 +34,7 @@ const rclone = (history, setHistory, setIsLoading) => {
 
             }, err=>{
                 setHistory(
-                    addToArrayImmutable(history, convertToHTML(err))
+                    addToArrayImmutable(history, convertToHTML(`ERROR: ${err.message}`))
                 );
                 setIsLoading(false);
             });
