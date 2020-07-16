@@ -5,9 +5,8 @@
   "private": false,
   "rclone": {
     "handleType": [
-      "video/mp4"
     ],
-    "pluginType": "filehandler"
+    "pluginType": "Terminal"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
