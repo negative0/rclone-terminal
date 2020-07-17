@@ -15,7 +15,7 @@ function App() {
     };
 
     return (
-        <div style={{height: "95vh"}}>
+        <div style={{height: "95vh"}} data-test="appComponent">
             <Terminal
                 history={history}
                 theme={Terminal.Themes.DARK}

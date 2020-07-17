@@ -11,17 +11,22 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "javascript-terminal": "^1.0.3",
     "react": "^16.13.1",
     "react-bash": "^1.6.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-terminal-component": "^1.4.1"
   },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:cov": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
