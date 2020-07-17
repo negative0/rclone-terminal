@@ -15,7 +15,7 @@ function App() {
     };
 
     return (
-        <div style={{height: "80vh"}}>
+        <div style={{height: "95vh"}}>
             <Terminal
                 history={history}
                 theme={Terminal.Themes.DARK}
