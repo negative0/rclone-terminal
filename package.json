@@ -3,6 +3,7 @@
   "author": "negative0",
   "version": "0.1.0",
   "private": false,
+  "homepage": "./",
   "rclone": {
     "handleType": [],
     "pluginType": "Terminal"
