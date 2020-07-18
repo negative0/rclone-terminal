@@ -7,3 +7,8 @@ export const convertToHTML = (text) => {
 export const addToArrayImmutable = (array, value) => {
     return [...array, {value}];
 }
+
+export const findByTestAttr = (component, attr) => {
+    const wrapper = component.find(`[data-test='${attr}']`);
+    return wrapper;
+};
